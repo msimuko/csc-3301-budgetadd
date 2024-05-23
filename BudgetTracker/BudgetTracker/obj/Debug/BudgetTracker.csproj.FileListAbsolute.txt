@@ -1,0 +1,30 @@
+C:\Users\Denni\Documents\DudgetTracker\obj\Debug\BudgetTracker.csproj.AssemblyReference.cache
+C:\Users\Denni\Documents\DudgetTracker\obj\Debug\BudgetTracker.Form1.resources
+C:\Users\Denni\Documents\DudgetTracker\obj\Debug\DudgetTracker.Properties.Resources.resources
+C:\Users\Denni\Documents\DudgetTracker\obj\Debug\BudgetTracker.csproj.GenerateResource.cache
+C:\Users\Denni\Documents\DudgetTracker\obj\Debug\BudgetTracker.csproj.CoreCompileInputs.cache
+C:\Users\Denni\Documents\DudgetTracker\bin\Debug\DudgetTracker.exe.config
+C:\Users\Denni\Documents\DudgetTracker\bin\Debug\DudgetTracker.exe
+C:\Users\Denni\Documents\DudgetTracker\bin\Debug\DudgetTracker.pdb
+C:\Users\Denni\Documents\DudgetTracker\obj\Debug\DudgetTracker.exe
+C:\Users\Denni\Documents\DudgetTracker\obj\Debug\DudgetTracker.pdb
+C:\Users\Denni\OneDrive\Desktop\BudgetTracker\bin\Debug\DudgetTracker.exe.config
+C:\Users\Denni\OneDrive\Desktop\BudgetTracker\bin\Debug\DudgetTracker.exe
+C:\Users\Denni\OneDrive\Desktop\BudgetTracker\bin\Debug\DudgetTracker.pdb
+C:\Users\Denni\OneDrive\Desktop\BudgetTracker\obj\Debug\BudgetTracker.csproj.AssemblyReference.cache
+C:\Users\Denni\OneDrive\Desktop\BudgetTracker\obj\Debug\BudgetTracker.Form1.resources
+C:\Users\Denni\OneDrive\Desktop\BudgetTracker\obj\Debug\DudgetTracker.Properties.Resources.resources
+C:\Users\Denni\OneDrive\Desktop\BudgetTracker\obj\Debug\BudgetTracker.csproj.GenerateResource.cache
+C:\Users\Denni\OneDrive\Desktop\BudgetTracker\obj\Debug\BudgetTracker.csproj.CoreCompileInputs.cache
+C:\Users\Denni\OneDrive\Desktop\BudgetTracker\obj\Debug\DudgetTracker.exe
+C:\Users\Denni\OneDrive\Desktop\BudgetTracker\obj\Debug\DudgetTracker.pdb
+C:\Users\DELL MACHINE\Documents\BudgetTracker\BudgetTracker\bin\Debug\DudgetTracker.exe.config
+C:\Users\DELL MACHINE\Documents\BudgetTracker\BudgetTracker\bin\Debug\DudgetTracker.exe
+C:\Users\DELL MACHINE\Documents\BudgetTracker\BudgetTracker\bin\Debug\DudgetTracker.pdb
+C:\Users\DELL MACHINE\Documents\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.csproj.AssemblyReference.cache
+C:\Users\DELL MACHINE\Documents\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.Form1.resources
+C:\Users\DELL MACHINE\Documents\BudgetTracker\BudgetTracker\obj\Debug\DudgetTracker.Properties.Resources.resources
+C:\Users\DELL MACHINE\Documents\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.csproj.GenerateResource.cache
+C:\Users\DELL MACHINE\Documents\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.csproj.CoreCompileInputs.cache
+C:\Users\DELL MACHINE\Documents\BudgetTracker\BudgetTracker\obj\Debug\DudgetTracker.exe
+C:\Users\DELL MACHINE\Documents\BudgetTracker\BudgetTracker\obj\Debug\DudgetTracker.pdb
