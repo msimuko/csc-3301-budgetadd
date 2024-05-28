@@ -38,3 +38,4 @@ C:\Users\DELL MACHINE\Desktop\clone\csc-3301-budgetadd\BudgetTracker\BudgetTrack
 C:\Users\DELL MACHINE\Desktop\clone\csc-3301-budgetadd\BudgetTracker\BudgetTracker\bin\Debug\DudgetTracker.exe.config
 C:\Users\DELL MACHINE\Desktop\clone\csc-3301-budgetadd\BudgetTracker\BudgetTracker\bin\Debug\DudgetTracker.exe
 C:\Users\DELL MACHINE\Desktop\clone\csc-3301-budgetadd\BudgetTracker\BudgetTracker\bin\Debug\DudgetTracker.pdb
+C:\Users\DELL MACHINE\Desktop\clone\csc-3301-budgetadd\BudgetTracker\BudgetTracker\obj\Debug\DudgetTracker.chart.resources
