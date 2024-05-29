@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DudgetTracker;
+using System;
 using System.Windows.Forms;
 
 namespace BudgetTracker

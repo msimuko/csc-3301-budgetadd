@@ -95,12 +95,27 @@ namespace BudgetTracker
 
         private void btnCharts_Click(object sender, EventArgs e)
         {
-            chart chartForm = new chart();
+           
+        }
+
+        private void btnAddExpense_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cHARTSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            charts chartForm = new charts();
             chartForm.Show();
             this.Hide();
         }
 
-        private void btnAddExpense_Click_1(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             string expenseName = txtExpenseName.Text;
             if (string.IsNullOrWhiteSpace(expenseName))
@@ -123,11 +138,6 @@ namespace BudgetTracker
 
             CalculateTotalExpenses();
             ClearForm();
-        }
-
-        private void btnDashboard_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

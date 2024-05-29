@@ -10,24 +10,11 @@ using System.Windows.Forms;
 
 namespace DudgetTracker
 {
-    public partial class chart : Form
+    public partial class Form2 : Form
     {
-        public static object Series { get; internal set; }
-
-        public chart()
+        public Form2()
         {
             InitializeComponent();
-        }
-
-
-        private void chart_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void chart1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
