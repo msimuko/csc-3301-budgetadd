@@ -1,4 +1,5 @@
 ﻿using DudgetTracker;
+using loadingpage;
 using System;
 using System.Windows.Forms;
 
@@ -11,7 +12,7 @@ namespace BudgetTracker
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new load());
         }
     }
 }

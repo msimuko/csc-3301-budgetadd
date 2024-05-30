@@ -30,7 +30,7 @@ namespace DudgetTracker
 
         private void cREATEToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            main form1 = new main();
             form1.Show();
             this.Hide();
         }
