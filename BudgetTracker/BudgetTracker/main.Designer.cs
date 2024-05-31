@@ -18,6 +18,7 @@ namespace BudgetTracker
 
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.MenuStrip menuStrip1;
             this.hOMEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cREATEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -33,9 +34,16 @@ namespace BudgetTracker
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.btnAddExpense = new System.Windows.Forms.Button();
+            this.modelDataSet = new DudgetTracker.ModelDataSet();
+            this.itemsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.itemsTableAdapter = new DudgetTracker.ModelDataSetTableAdapters.itemsTableAdapter();
+            this.tableAdapterManager = new DudgetTracker.ModelDataSetTableAdapters.TableAdapterManager();
+            this.cREATEToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             menuStrip1 = new System.Windows.Forms.MenuStrip();
             menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.modelDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.itemsBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -48,12 +56,13 @@ namespace BudgetTracker
             menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.hOMEToolStripMenuItem,
+            this.cREATEToolStripMenuItem1,
             this.cREATEToolStripMenuItem,
             this.cHARTSToolStripMenuItem});
-            menuStrip1.Location = new System.Drawing.Point(0, 592);
+            menuStrip1.Location = new System.Drawing.Point(0, 648);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Padding = new System.Windows.Forms.Padding(100, 0, 0, 0);
-            menuStrip1.Size = new System.Drawing.Size(458, 82);
+            menuStrip1.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            menuStrip1.Size = new System.Drawing.Size(480, 82);
             menuStrip1.TabIndex = 12;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -138,13 +147,14 @@ namespace BudgetTracker
             this.lvExpenses.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lvExpenses.FullRowSelect = true;
             this.lvExpenses.HideSelection = false;
-            this.lvExpenses.Location = new System.Drawing.Point(13, 285);
+            this.lvExpenses.Location = new System.Drawing.Point(29, 285);
             this.lvExpenses.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lvExpenses.Name = "lvExpenses";
-            this.lvExpenses.Size = new System.Drawing.Size(416, 213);
+            this.lvExpenses.Size = new System.Drawing.Size(416, 219);
             this.lvExpenses.TabIndex = 7;
             this.lvExpenses.UseCompatibleStateImageBehavior = false;
             this.lvExpenses.View = System.Windows.Forms.View.Details;
+            this.lvExpenses.SelectedIndexChanged += new System.EventHandler(this.lvExpenses_SelectedIndexChanged);
             // 
             // lblTotalExpenses
             // 
@@ -164,7 +174,7 @@ namespace BudgetTracker
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(458, 62);
+            this.panel1.Size = new System.Drawing.Size(480, 62);
             this.panel1.TabIndex = 13;
             // 
             // label2
@@ -190,12 +200,39 @@ namespace BudgetTracker
             this.btnAddExpense.UseVisualStyleBackColor = true;
             this.btnAddExpense.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // Form1
+            // modelDataSet
+            // 
+            this.modelDataSet.DataSetName = "ModelDataSet";
+            this.modelDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // itemsBindingSource
+            // 
+            this.itemsBindingSource.DataMember = "items";
+            this.itemsBindingSource.DataSource = this.modelDataSet;
+            // 
+            // itemsTableAdapter
+            // 
+            this.itemsTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.itemsTableAdapter = this.itemsTableAdapter;
+            this.tableAdapterManager.UpdateOrder = DudgetTracker.ModelDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
+            // cREATEToolStripMenuItem1
+            // 
+            this.cREATEToolStripMenuItem1.Name = "cREATEToolStripMenuItem1";
+            this.cREATEToolStripMenuItem1.Size = new System.Drawing.Size(96, 82);
+            this.cREATEToolStripMenuItem1.Text = "CREATE";
+            this.cREATEToolStripMenuItem1.Click += new System.EventHandler(this.cREATEToolStripMenuItem1_Click);
+            // 
+            // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(458, 674);
+            this.ClientSize = new System.Drawing.Size(480, 730);
             this.Controls.Add(this.btnAddExpense);
             this.Controls.Add(this.panel1);
             this.Controls.Add(menuStrip1);
@@ -207,15 +244,17 @@ namespace BudgetTracker
             this.Controls.Add(this.lblAmount);
             this.Controls.Add(this.txtExpenseName);
             this.Controls.Add(this.lblExpenseName);
-            this.ForeColor = System.Drawing.Color.White;
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form1";
+            this.Name = "main";
             this.Text = "Budget Tracker";
             this.Load += new System.EventHandler(this.Form1_Load_1);
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.modelDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.itemsBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -247,5 +286,10 @@ namespace BudgetTracker
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnAddExpense;
+        private DudgetTracker.ModelDataSet modelDataSet;
+        private System.Windows.Forms.BindingSource itemsBindingSource;
+        private DudgetTracker.ModelDataSetTableAdapters.itemsTableAdapter itemsTableAdapter;
+        private DudgetTracker.ModelDataSetTableAdapters.TableAdapterManager tableAdapterManager;
+        private System.Windows.Forms.ToolStripMenuItem cREATEToolStripMenuItem1;
     }
 }

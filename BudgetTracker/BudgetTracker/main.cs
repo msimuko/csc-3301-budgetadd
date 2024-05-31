@@ -142,7 +142,44 @@ namespace BudgetTracker
 
         private void Form1_Load_1(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'modelDataSet.items' table. You can move, or remove it, as needed.
+            this.itemsTableAdapter.Fill(this.modelDataSet.items);
+            // TODO: This line of code loads data into the 'modelDataSet.items' table. You can move, or remove it, as needed.
+            this.itemsTableAdapter.Fill(this.modelDataSet.items);
 
+        }
+
+        private void itemsBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.itemsBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.modelDataSet);
+
+        }
+
+        private void itemsBindingNavigatorSaveItem_Click_1(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.itemsBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.modelDataSet);
+
+        }
+
+        private void lvExpenses_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void itemsDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void cREATEToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            create create = new create();
+            create.Show();
+            this.Hide();
         }
     }
 }

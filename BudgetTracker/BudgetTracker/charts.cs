@@ -13,6 +13,9 @@ namespace DudgetTracker
 {
     public partial class charts : Form
     {
+        public int mincome { get; internal set; }
+        public string bname { get; internal set; }
+
         public charts()
         {
             InitializeComponent();
@@ -32,6 +35,18 @@ namespace DudgetTracker
         {
             main form1 = new main();
             form1.Show();
+            this.Hide();
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cREATEToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            create create = new create();
+            create.Show();
             this.Hide();
         }
     }

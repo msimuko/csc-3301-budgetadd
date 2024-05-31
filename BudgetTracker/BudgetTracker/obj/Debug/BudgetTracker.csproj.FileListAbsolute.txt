@@ -51,3 +51,15 @@ C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\obj
 C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\obj\Debug\DudgetTracker.charts.resources
 C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\obj\Debug\loadingpage.load.resources
 C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.main.resources
+C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\bin\Debug\Database.mdf
+C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\bin\Debug\Database_log.ldf
+C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\bin\Debug\EntityFramework.dll
+C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\bin\Debug\System.Data.SQLite.dll
+C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\bin\Debug\EntityFramework.xml
+C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\bin\Debug\System.Data.SQLite.xml
+C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\obj\Debug\BudgetTr.578BD9FB.Up2Date
+C:\Users\DELL MACHINE\Desktop\csc-3301-budgetadd\BudgetTracker\BudgetTracker\obj\Debug\DudgetTracker.create.resources

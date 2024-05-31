@@ -37,13 +37,14 @@
             this.cHARTSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.cREATEToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             menuStrip1 = new System.Windows.Forms.MenuStrip();
             menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -60,11 +61,12 @@
             menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.hOMEToolStripMenuItem,
+            this.cREATEToolStripMenuItem1,
             this.cREATEToolStripMenuItem,
             this.cHARTSToolStripMenuItem});
             menuStrip1.Location = new System.Drawing.Point(0, 648);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Padding = new System.Windows.Forms.Padding(100, 0, 0, 0);
+            menuStrip1.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
             menuStrip1.Size = new System.Drawing.Size(480, 82);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
@@ -110,19 +112,6 @@
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(75, 110);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(317, 59);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Name";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
             // chart1
             // 
             this.chart1.BackColor = System.Drawing.Color.DeepSkyBlue;
@@ -149,6 +138,7 @@
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(260, 42);
             this.progressBar1.TabIndex = 5;
+            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
             // label1
             // 
@@ -190,19 +180,37 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "K2300";
             // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(96, 111);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(232, 59);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "label6";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // cREATEToolStripMenuItem1
+            // 
+            this.cREATEToolStripMenuItem1.Name = "cREATEToolStripMenuItem1";
+            this.cREATEToolStripMenuItem1.Size = new System.Drawing.Size(96, 82);
+            this.cREATEToolStripMenuItem1.Text = "CREATE";
+            this.cREATEToolStripMenuItem1.Click += new System.EventHandler(this.cREATEToolStripMenuItem1_Click);
+            // 
             // charts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(480, 730);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.chart1);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -222,7 +230,6 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ToolStripMenuItem hOMEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cREATEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cHARTSToolStripMenuItem;
@@ -232,5 +239,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ToolStripMenuItem cREATEToolStripMenuItem1;
     }
 }
