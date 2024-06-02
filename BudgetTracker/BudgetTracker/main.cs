@@ -7,10 +7,17 @@ namespace BudgetTracker
 {
     public partial class main : Form
     {
+        private charts chartsForm;
+        private Chart chart1;
+
         public main()
         {
             InitializeComponent();
             InitializeListView();
+        }
+        public void SetChart(Chart chart)
+        {
+            this.chart1 = chart;
         }
 
         private void InitializeListView()
@@ -110,9 +117,51 @@ namespace BudgetTracker
 
         private void cHARTSToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // Create an instance of the charts form
+            chartsForm = new charts();
+
+            // Ensure you have a valid series in your chart
+            if (chartsForm.Chart1.Series.Count == 0)
+            {
+                chartsForm.Chart1.Series.Add(new Series("Expenses"));
+            }
+
+            // Clear existing points before adding new ones
+            chartsForm.Chart1.Series["Expenses"].Points.Clear();
+
+            // Iterate through expenses and add them to the chart in the charts form
+            foreach (ListViewItem item in lvExpenses.Items)
+            {
+                string expenseName = item.SubItems[0].Text;
+                decimal expenseAmount = decimal.Parse(item.SubItems[1].Text, System.Globalization.NumberStyles.Currency);
+                chartsForm.Chart1.Series["Expenses"].Points.AddXY(expenseName, expenseAmount);
+            }
+
+            // Show the charts form
+            chartsForm.Show();
+            this.Hide(); // Hide the main form
+
+            /*charts charts = new charts();
+
+           // Ensure you have a valid series in your chart
+            if (chart1.Series.Count == 0)
+            {
+                chart1.Series.Add(new Series("Expenses"));
+            }
+
+            // Clear existing points before adding new ones
+            chart1.Series["Expenses"].Points.Clear();
+
+            foreach (ListViewItem item in lvExpenses.Items)
+            {
+                string expenseName = item.SubItems[0].Text;
+                decimal expenseAmount = decimal.Parse(item.SubItems[1].Text, System.Globalization.NumberStyles.Currency);
+                chart1.Series["Expenses"].Points.AddXY(expenseName, expenseAmount);
+            }
+
             charts chartForm = new charts();
             chartForm.Show();
-            this.Hide();
+            this.Hide();*/
         }
 
         private void button1_Click_1(object sender, EventArgs e)

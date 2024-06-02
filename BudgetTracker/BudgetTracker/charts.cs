@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace DudgetTracker
 {
@@ -16,9 +17,12 @@ namespace DudgetTracker
         public int mincome { get; internal set; }
         public string bname { get; internal set; }
 
+        public Chart Chart1 { get; }
+
         public charts()
         {
             InitializeComponent();
+            Chart1 = chart1;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -48,6 +52,21 @@ namespace DudgetTracker
             create create = new create();
             create.Show();
             this.Hide();
+        }
+
+        public void chart1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        internal void chart1_Click()
+        {
+
+        }
+
+        private void charts_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\DELL MACHINE\\Desktop\\csc-3301-budgetadd\\BudgetTracker\\BudgetTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|C:\\Users\\DELL MACHINE\\Desktop\\csc-3301-budgetadd\\BudgetTracker\\BudgetTracker\\charts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|solutionrelative:charts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|C:\\Users\\DELL MACHINE\\Desktop\\csc-3301-budgetadd\\BudgetTracker\\BudgetTracker\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|c:\\users\\dell machine\\desktop\\csc-3301-budgetadd\\budgettracker\\budgettracker\\create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|C:\\Users\\DELL MACHINE\\Desktop\\csc-3301-budgetadd\\BudgetTracker\\BudgetTracker\\create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|solutionrelative:create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|C:\\Users\\DELL MACHINE\\Desktop\\csc-3301-budgetadd\\BudgetTracker\\BudgetTracker\\load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|solutionrelative:load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|c:\\users\\dell machine\\desktop\\csc-3301-budgetadd\\budgettracker\\budgettracker\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|C:\\Users\\DELL MACHINE\\Desktop\\csc-3301-budgetadd\\BudgetTracker\\BudgetTracker\\charts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|solutionrelative:charts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|c:\\users\\dell machine\\desktop\\csc-3301-budgetadd\\budgettracker\\budgettracker\\charts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|solutionrelative:charts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|c:\\users\\dell machine\\desktop\\csc-3301-budgetadd\\budgettracker\\budgettracker\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30E55F98-442F-4C13-BFDB-7B7FADDE3804}|BudgetTracker.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +58,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "charts.cs",
+              "DocumentMoniker": "C:\\Users\\DELL MACHINE\\Desktop\\csc-3301-budgetadd\\BudgetTracker\\BudgetTracker\\charts.cs",
+              "RelativeDocumentMoniker": "charts.cs",
+              "ToolTip": "C:\\Users\\DELL MACHINE\\Desktop\\csc-3301-budgetadd\\BudgetTracker\\BudgetTracker\\charts.cs",
+              "RelativeToolTip": "charts.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T14:53:12.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cs",
+              "DocumentMoniker": "C:\\Users\\DELL MACHINE\\Desktop\\csc-3301-budgetadd\\BudgetTracker\\BudgetTracker\\main.cs",
+              "RelativeDocumentMoniker": "main.cs",
+              "ToolTip": "C:\\Users\\DELL MACHINE\\Desktop\\csc-3301-budgetadd\\BudgetTracker\\BudgetTracker\\main.cs",
+              "RelativeToolTip": "main.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAASwIEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T14:26:16.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "load.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DELL MACHINE\\Desktop\\csc-3301-budgetadd\\BudgetTracker\\BudgetTracker\\load.cs",
               "RelativeDocumentMoniker": "load.cs",
@@ -62,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "create.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DELL MACHINE\\Desktop\\csc-3301-budgetadd\\BudgetTracker\\BudgetTracker\\create.cs",
               "RelativeDocumentMoniker": "create.cs",
@@ -74,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "main.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DELL MACHINE\\Desktop\\csc-3301-budgetadd\\BudgetTracker\\BudgetTracker\\main.cs",
               "RelativeDocumentMoniker": "main.cs",
@@ -86,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "charts.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DELL MACHINE\\Desktop\\csc-3301-budgetadd\\BudgetTracker\\BudgetTracker\\charts.cs",
               "RelativeDocumentMoniker": "charts.cs",
